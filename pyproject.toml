@@ -28,6 +28,9 @@ allow-direct-references = true
 [tool.hatch.build.targets.wheel]
 packages = ["src/ruff_format_diff_converter"]
 
+[tool.ruff]
+line-length = 120
+
 [tool.ruff.lint]
 select = ["ALL"]
 ignore = ["D203", "D213", "COM812", "ISC001"]
