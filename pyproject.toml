@@ -5,7 +5,10 @@ description = "Add your description here"
 authors = [
     { name = "joris.guex", email = "guex.joris@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "junit-xml>=1.9",
+    "whatthepatch>=1.0.5",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 

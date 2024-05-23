@@ -8,4 +8,10 @@
 #   with-sources: false
 
 -e file:.
+junit-xml==1.9
+    # via ruff-format-diff-converter
 ruff==0.4.4
+six==1.16.0
+    # via junit-xml
+whatthepatch==1.0.5
+    # via ruff-format-diff-converter
